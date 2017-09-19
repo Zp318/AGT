@@ -1,0 +1,100 @@
+[
+    {
+        "id": "USER",
+        "name": "TERMINAL ANALYSIS",
+        "item": [
+            {
+                "id": "user_group",
+                "name": "Brand"
+            },
+            {
+                "id": "hvc",
+                "name": "Model"
+            },
+            {
+                "id": "user_type",
+                "name": "Mode"
+            },
+            {
+                "id": "msisdn",
+                "name": "OS"
+            },
+            {
+                "id": "msisdn",
+                "name": "Type"
+            }
+        ]
+    },
+    {
+        "id": "VVIP",
+        "name": "VVIP ANALYSIS",
+        "item": [
+            {
+                "id": "vvip",
+                "name": "VVIP_MSISDN"
+            },
+            {
+                "id": "msisdn",
+                "name": "VVIP_IMSI"
+            }
+        ]
+    },
+    {
+        "id": "VVIP",
+        "name": "USER ANALYSIS",
+        "item": [
+            {
+                "id": "vvip",
+                "name": "USER_GROUP"
+            }
+        ]
+    },
+    {
+        "id": "VVIP",
+        "name": "REGION ANALYSIS",
+        "item": [
+            {
+                "id": "vvip",
+                "name": "County"
+            },
+            {
+                "id": "msisdn",
+                "name": "Regional"
+            },
+            {
+                "id": "user_type",
+                "name": "Cabeceras"
+            },
+            {
+                "id": "user_type",
+                "name": "custom_area"
+            },
+            {
+                "id": "user_type",
+                "name": "cell"
+            }
+        ]
+    },
+    {
+        "id": "VVIP",
+        "name": "NE ANALYSIS",
+        "item": [
+            {
+                "id": "vvip",
+                "name": "BSC"
+            },
+            {
+                "id": "msisdn",
+                "name": "RNC"
+            },
+            {
+                "id": "user_type",
+                "name": "MSC"
+            },
+            {
+                "id": "user_type",
+                "name": "MSC_POOL"
+            }
+        ]
+    }
+]

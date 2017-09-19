@@ -1,0 +1,10 @@
+{
+	"multiAnalysis/initFilterData":"initFilterData.json",
+	"multiAnalysis/getDimensionValues":"getDimensionValues.json",
+	"multiAnalysis/filterDataQuery":"filterDataQuery.json",
+	"multiAnalysis/indexDataQuery":"indexDataQuery.json",
+	"multiAnalysis/detailDataQuery":"detailDataQuery.json",
+	"multiAnalysis/kqiDataQuery":"kqiDataQuery.json",
+	"multiAnalysis/subKqiDataQuery":"subKqiDataQuery.json",
+	"multiAnalysis/rejectDataQuery":"rejectDataQuery.json"
+}

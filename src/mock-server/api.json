@@ -1,0 +1,1214 @@
+{
+    "test": [{
+            "url": "/ECHART",
+            "desc": "12小时告警数",
+            "delay": 1000,
+            "mock": true,
+	        "res": {
+				"cellData":{
+				    "others":{},
+				    "series":{
+				    	"amounts":["95.12","96.12","97.12","95.22","95.42","95.92","95.32","95.02","95.42","95.92","95.32","100"]
+				    },
+				    "xAxis":[1474387200,1474473600,1474560000,1474646400,1474732800,1474819200,1474905600,1474992000,1474732800,1474819200,1474905600,1474992000]
+				}
+			}
+        },
+        {
+            "url": "/TWOECHART",
+            "desc": "24小时告警数",
+            "delay": 1000,
+            "mock": true,
+            "res": {
+				"cellData":{
+				    "others":{},
+				    "series":{
+				    	"amounts":["95.12","96.12","97.12","95.22","95.42","95.92","95.32","95.02","95.42","95.92","95.32","95.02","95.12","96.12","97.12","95.22","95.42","95.92","95.32","95.02","95.42","95.92","95.32","95.02"]
+				    },
+				    "xAxis":[1474387200,1474473600,1474560000,1474646400,1474732800,1474819200,1474905600,1474992000,1474732800,1474819200,1474905600,1474992000,1474387200,1474473600,1474560000,1474646400,1474732800,1474819200,1474905600,1474992000,1474732800,1474819200,1474905600,1474992000]
+				}
+			}
+        },
+        {
+            "url": "/vipUser",
+            "desc": "",
+            "mock": true,
+            "delay": 1000,
+            "res": [
+				{
+					"CRITICALALARM":"65",  
+					"PROMPTALARM":"32",     
+					"AllALARM":"97",
+					"CRITICALALARMTREND":"1",
+					"PROMPTALARMTREND":"0",
+					"startTime":1474387200,
+					"endTime": 1474473600         
+				},
+				{
+					"status":"success"
+				}
+			]
+        },
+        {
+            "url": "/detail",
+            "desc": "弹框信息",
+            "mock": true,
+            "delay": 1000,
+            "res": {
+			    "DETAIL_DATA": [
+					    {
+			                "Serial Number":"100679",
+			                "Alarm Name": "jiazhaoye",
+			                "Impacted User Amount":789,
+			                "Impacted VIP Amount":123,
+			                "Impacted HVC Amount":987,
+			                "Object Type": "jiazhaoye",
+			                "Object": "jiazhaoye",
+			                "Alarm Level": "jiazhaoye",
+			                "Faliure Times": "jiazhaoye",
+			                "Cycle": "jiazhaoye",
+			                "First Occurred Time": "1474387200",
+			                "Last Occurred Time": "1474389200",
+			                "First Generated Time": "1474387200",
+			                "Alarm Information": "jiazhaoye"
+			            }
+				     ],
+			     "model_name":{
+	                      "series": {
+		                      "alarm_value":["98","76","65","35","12","99","100","120"]
+	                      },
+	                      "xAxis":[1474387200,1474473600,1474560000,1474646400,1474732800,1474819200,1474905600,1474992000]
+	             },
+	             "TABLE_NAME":"VDF_SDR_SP_PS"
+			}
+        },
+        {
+            "url": "/VIPGROUP",
+            "desc": "",
+            "mock": true,
+            "delay": 500,
+            "res": {
+				"ALARMNUM":{
+					"CRITICALALARM":"152",
+					"CRITICALALARMTREND":"1",
+					"PROMPTALARM":"45",
+					"PROMPTALARMTREND":"-1",
+					"AllALARM":"197",
+					"startTime":1474387200,
+					"endTime": 1474473600 
+				},
+				"GROUPID":["BWM1","BWM2","BWM3","BWM4"],
+				"BWM1":{
+					"CRITICALALARM":"78",
+					"PROMPTALARM":"20",
+					"CRITICALALARMTREND":"1",
+					"PROMPTALARMTREND":"-1", 
+					"huihuihih":90,
+					"oipuoiug":90,
+					"oipuoiugTREND":-1,
+					"huihuihihTREND":"1",
+					"huihuihihModelTrend":"1",
+					"oipuoiugModelTrend":"-1",
+					"icon":"BMW.png"
+				},
+				"BWM2":{
+					"CRITICALALARM":"45",
+					"PROMPTALARM":"32",
+					"CRITICALALARMTREND":"-1",
+					"PROMPTALARMTREND":"1", 
+					"icon":"BMW.png",    
+					"BBiojgubiu":78,
+					"BBiojgubiuTREND":-1,
+					"BBiojgubiuModelTrend":0
+				},
+				"BWM3":{
+					"CRITICALALARM":"78",
+					"PROMPTALARM":"20",
+					"CRITICALALARMTREND":"1",
+					"PROMPTALARMTREND":"1",  
+					"icon":"BMW.png",   
+					"YYhuihuihih":90,
+					"huihuihih":90,
+					"huihuihihModelTrend":0,
+					"YYhuihuihihModelTrend":1,
+					"YYhuihuihihTREND":1,
+					"huihuihihTREND":1
+				},
+				"BWM4":{
+					"CRITICALALARM":"45",
+					"PROMPTALARM":"32",
+					"CRITICALALARMTREND":"-1",
+					"PROMPTALARMTREND":"-1",  
+					"icon":"",   
+					"huihuihih":78,
+					"huihuihihTREND":-1,
+					"huihuihihModelTrend":1
+				},
+				"status":"success"
+			}
+        },
+        {
+            "url": "/SP",
+            "desc": "",
+            "mock": true,
+            "delay": 500,
+            "res": {
+				"ALARMNUM":{
+					"CRITICALALARM":"111",
+					"CRITICALALARMTREND":"1",
+					"PROMPTALARM":"42",
+					"PROMPTALARMTREND":"-1",
+					"AllALARM":"153",
+					"startTime":1474387200,
+					"endTime": 1474473600 
+				},
+				"GROUPID":["Facebook1","Facebook2","Facebook3","Facebook4","Facebook5"],
+				"Facebook1":{
+					"CRITICALALARM":"78",
+					"PROMPTALARM":"20",
+					"CRITICALALARMTREND":"1",
+					"PROMPTALARMTREND":"-1",     
+					"Face11":90,
+					"Facebook12":90,
+					"Facebook13":70,
+					"Face11TREND":1,
+					"Facebook12TREND":1,
+					"Facebook13TREND":-1,
+					"Facebook13ModelTrend":1,
+					"Facebook12ModelTrend":-1,
+					"Face11ModelTrend":1,
+					"icon":"Facebook.png"
+				},
+				"Facebook2":{
+					"CRITICALALARM":"45",
+					"PROMPTALARM":"32",
+					"CRITICALALARMTREND":"-1",
+					"PROMPTALARMTREND":"1", 
+					"icon":"Facebook.png",    
+					"Face21":78,
+					"Face21TREND":1,
+					"Face21ModelTrend":-1
+				},
+				"Facebook3":{
+					"CRITICALALARM":"78",
+					"PROMPTALARM":"20",
+					"CRITICALALARMTREND":"1",
+					"PROMPTALARMTREND":"1",  
+					"icon":"Facebook.png",   
+					"Face31":90,
+					"Facebook32":90,
+					"Face31TREND":-1,
+					"Facebook32TREND":1,
+					"Face31ModelTrend":-1,
+					"Facebook32ModelTrend":0
+				},
+				"Facebook4":{
+					"CRITICALALARM":"45",
+					"PROMPTALARM":"32",
+					"CRITICALALARMTREND":"-1",
+					"PROMPTALARMTREND":"-1",  
+					"icon":"",   
+					"Face41":78,
+					"Face41TREND":0,
+					"Face41ModelTrend":0
+				},
+				"Facebook5":{
+					"CRITICALALARM":"45",
+					"PROMPTALARM":"32",
+					"CRITICALALARMTREND":"-1",
+					"PROMPTALARMTREND":"0",  
+					"icon":"",   
+					"Face51":48,
+					"Face51TREND":1,
+					"Face51ModelTrend":1
+				},
+				"status":"success"
+			}
+        },
+        {
+            "url": "/indexNe",
+            "desc": "",
+            "mock": true,
+            "delay": 1000,
+            "res": {
+				"ALARMNUM": {
+					"PROMPTALARMTREND": 0,
+					"CRITICALALARM": 0,
+					"ALLALARM": 0,
+					"CRITICALALARMTREND": 0,
+					"PROMPTALARM": 0,
+					"startTime":0,
+					"endTime":0
+				}
+			}	
+        },
+        {
+            "url": "/init",
+            "desc": "初始化",
+            "mock": true,
+            "delay": 1000,
+            "res": {
+            	"modelId":[
+            		{"text":"huihuihih","value":"897" },
+            		{"text":"oipuoiug","value":"5" },
+            		{"text":"uyguftrd","value":"1897" },
+            		{"text":"huihuhuygyug","value":"8979" },
+            		{"text":"BBiojgubiu","value":"87" },
+            		{"text":"YYhuihuihih","value":"807" },
+            		{"text":"HHiojgubiu","value":"870"},
+            		{"text":"GGhuihuihih","value":"9897"},
+            		{"text":"Face11","value":"1" },
+            		{"text":"Facebook12","value":"2" },
+            		{"text":"Facebook13","value":"3" },
+            		{"text":"Facebook14","value":"4" },
+            		{"text":"Face51","value":"6" },
+            		{"text":"Facebook52","value":"7" },
+            		{"text":"Face41","value":"8" },
+            		{"text":"Facebook42","value":"9" },
+            		{"text":"Facebook43","value":"10" },
+            		{"text":"Face31","value":"11" },
+            		{"text":"Facebook32","value":"12" },
+            		{"text":"Facebook33","value":"13" },
+            		{"text":"Facebook34","value":"14" },
+            		{"text":"Face21","value":"15" },
+            		{"text":"Facebook22","value":"16" },
+            		{"text":"Facebook23","value":"17" }
+            	],
+				"GROUPOBJ":[
+					{"text":"BWM9","value":"b9"},
+					{"text":"BWM0","value":"b0"},
+					{"text":"BWM1","value":"b1"},
+					{"text":"BWM2","value":"b2"},
+					{"text":"BWM3","value":"b3"},
+					{"text":"BWM4","value":"b4"},
+					{"text":"BWM5","value":"b5"},
+					{"text":"BWM6","value":"b6"},
+					{"text":"BWM7","value":"b7"},
+					{"text":"BWM8","value":"b8"}
+				],
+				"BWM9":[{"text":"huihuihih","value":"897" },{"text":"oipuoiug","value":"5" },{"text":"uyguftrd","value":"1897" },{"text":"huihuhuygyug","value":"8979" }],
+				"BWM0":[{"text":"huihuihih","value":"897" },{"text":"oipuoiug","value":"5" }],
+				"BWM1":[{"text":"huihuihih","value":"897" },{"text":"oipuoiug","value":"5" },{"text":"uyguftrd","value":"1897" }],
+				"BWM2":[{"text":"BBiojgubiu","value":"87" },{"text":"huihuihih","value":"897" },{"text":"oipuoiug","value":"5" },{"text":"uyguftrd","value":"1897" }],
+				"BWM3":[{"text":"YYhuihuihih","value":"807" },{"text":"huihuihih","value":"897" },{"text":"uyguftrd","value":"1897" }],
+				"BWM4":[{"text":"HHiojgubiu","value":"870"},{"text":"huihuihih","value":"897" },{"text":"oipuoiug","value":"5" },{"text":"uyguftrd","value":"1897" }],
+				"BWM5":[{"text":"GGhuihuihih","value":"9897"},{"text":"huihuihih","value":"897" },{"text":"oipuoiug","value":"5" },{"text":"uyguftrd","value":"1897" }],
+				"BWM6":[{"text":"OOiojgubiu","value":"871" }],
+				"BWM7":[{"text":"PPhuihuihih","value":"897" }],
+				"BWM8":[{"text":"ZZiojgubiu","value":"872" }],
+				"SPOBJ":[
+					{"text":"Facebook5","value":"s5"},
+					{"text":"Facebook4","value":"s4"},
+					{"text":"Facebook3","value":"s3"},
+					{"text":"Facebook2","value":"s2"},
+					{"text":"Facebook1","value":"s1"}
+				],
+				"Facebook1":[{"text":"Face11","value":"1" },{"text":"Facebook12","value":"2" },{"text":"Facebook13","value":"3" },{"text":"Facebook14","value":"4" }],
+				"Facebook5":[{"text":"Face51","value":"6" },{"text":"Facebook52","value":"7" }],
+				"Facebook4":[{"text":"Face41","value":"8" },{"text":"Facebook42","value":"9" },{"text":"Facebook43","value":"10" }],
+				"Facebook3":[{"text":"Face31","value":"11" },{"text":"Facebook32","value":"12" },{"text":"Facebook33","value":"13" },{"text":"Facebook34","value":"14" }],
+				"Facebook2":[{"text":"Face21","value":"15" },{"text":"Facebook22","value":"16" },{"text":"Facebook23","value":"17" }],
+				"CELLOBJ":[
+					{"text":"c10","value":"c10"},
+					{"text":"c9","value":"c9"},
+					{"text":"c8","value":"c8"},
+					{"text":"c7","value":"c7"},
+					{"text":"c6","value":"c6"},
+					{"text":"c5","value":"c5"},
+					{"text":"c4","value":"c4"},
+					{"text":"c3","value":"c3"},
+					{"text":"c2","value":"c2"},
+					{"text":"c1","value":"c1"}
+				]
+			}
+        },
+        {
+            "url": "/QUERYTIME",
+            "desc": "",
+            "mock": true,
+            "delay": 1000,
+            "res": {
+				"STARTTIME":"1474387400",
+				"ENDTIME":"1474987400",
+				"SERVERTIME":"1474687400"
+			}
+        },
+        {
+            "url": "/DEFAULTMODEL",
+            "desc": "",
+            "mock": true,
+            "delay": 1000,
+            "res": {
+				"VIPGROUP":{"GROUPID":"group1,group2","modelId":"modelId1,modelId2;modelId1,modelId2"},
+				"SP":{"GROUPID":"group1,group2","modelId":"modelId1,modelId2;modelId1,modelId2"},
+				"CELL":{"GROUPID":"group1,group2"}
+			}
+        },
+        {
+            "url": "/ALARM",
+            "desc": "",
+            "mock": true,
+            "delay": 1000,
+            "res": {
+            	"TOTALNUMBER" : 168,
+				"ALARMLIST_DATA":[
+		    		{   
+		    			"Serial Number":"100679",         
+		                "Status":{
+		              		"series": {
+			                    "alarm_level":["1","2","0","0","0","0","0","0","1","2","0","0","0","0","0","0","1","2","0","0","0","0","0","0"]
+		                    },
+		                    "xAxis":[1474387200,1474473600,1474560000,1474646400,1474732800,1474819200,1474905600,1474992000,1474387200,1474473600,1474560000,1474646400,1474732800,1474819200,1474905600,1474992000,1474387200,1474473600,1474560000,1474646400,1474732800,1474819200,1474905600,1474992000]
+		                },
+		                "Alarm Type": "jiazhaoye",
+		                "Alarm Name": "jiazhaoye",
+		                "Object Type": "jiazhaoye",
+		                "Object": "jiazhaoye",
+		                "Alarm Level": "jiazhaoye",
+		                "Failure Times": "jiazhaoye",
+		                "Cycle": "jiazhaoye",
+		                "First Occurred Time": "1474387200",
+		                "Last Occurred Time": "1474987200",
+		                "First Generated Time": "1474387200",
+		                "Alarm Information": "jiazhaoye"
+		            },
+		            {            
+		            	"Serial Number":"200679",         
+		                "Status":{
+		              		"series": {
+			                    "alarm_level":["1","2","0","0","0","0","0","0","1","2","0","0","0","0","0","0","1","2","0","0","0","0","0","0"]
+		                    },
+		                    "xAxis":[1474387200,1474473600,1474560000,1474646400,1474732800,1474819200,1474905600,1474992000,1474387200,1474473600,1474560000,1474646400,1474732800,1474819200,1474905600,1474992000,1474387200,1474473600,1474560000,1474646400,1474732800,1474819200,1474905600,1474992000]
+		                },
+		                "Alarm Type": "jiazhaoye",
+		                "Alarm Name": "jiazhaoye",
+		                "Object Type": "jiazhaoye",
+		                "Object": "jiazhaoye",
+		                "Alarm Level": "jiazhaoye",
+		                "Failure Times": "jiazhaoye",
+		                "Cycle": "jiazhaoye",
+		                "First Occurred Time": "1474387200",
+		                "Last Occurred Time": "1474987200",
+		                "First Generated Time": "1474387200",
+		                "Alarm Information": "jiazhaoye"
+		            },
+		            {            
+		            	"Serial Number":"300679",         
+		                "Status":{
+		              		"series": {
+			                    "alarm_level":["1","2","0","0","0","0","0","0","1","2","0","0","0","0","0","0","1","2","0","0","0","0","0","0"]
+		                    },
+		                    "xAxis":[1474387200,1474473600,1474560000,1474646400,1474732800,1474819200,1474905600,1474992000,1474387200,1474473600,1474560000,1474646400,1474732800,1474819200,1474905600,1474992000,1474387200,1474473600,1474560000,1474646400,1474732800,1474819200,1474905600,1474992000]
+		                },
+		                "Alarm Type": "jiazhaoye",
+		                "Alarm Name": "jiazhaoye",
+		                "Object Type": "jiazhaoye",
+		                "Object": "jiazhaoye",
+		                "Alarm Level": "jiazhaoye",
+		                "Failure Times": "jiazhaoye",
+		                "Cycle": "jiazhaoye",
+		                "First Occurred Time": "1474387200",
+		                "Last Occurred Time": "1474987200",
+		                "First Generated Time": "1474387200",
+		                "Alarm Information": "jiazhaoye"
+		            },
+		            {            
+		            	"Serial Number":"400679",         
+		                "Status":{
+		              		"series": {
+			                    "alarm_level":["1","2","0","0","0","0","0","0","1","2","0","0","0","0","0","0","1","2","0","0","0","0","0","0"]
+		                    },
+		                    "xAxis":[1474387200,1474473600,1474560000,1474646400,1474732800,1474819200,1474905600,1474992000,1474387200,1474473600,1474560000,1474646400,1474732800,1474819200,1474905600,1474992000,1474387200,1474473600,1474560000,1474646400,1474732800,1474819200,1474905600,1474992000]
+		                },
+		                "Alarm Type": "jiazhaoye",
+		                "Alarm Name": "jiazhaoye",
+		                "Object Type": "jiazhaoye",
+		                "Object": "jiazhaoye",
+		                "Alarm Level": "jiazhaoye",
+		                "Failure Times": "jiazhaoye",
+		                "Cycle": "jiazhaoye",
+		                "First Occurred Time": "1474387200",
+		                "Last Occurred Time": "1474987200",
+		                "First Generated Time": "1474387200",
+		                "Alarm Information": "jiazhaoye"
+		            },
+		            {            
+		            	"Serial Number":"500679",         
+		                "Status":{
+		              		"series": {
+			                    "alarm_level":["1","2","0","0","0","0","0","0","1","2","0","0","0","0","0","0","1","2","0","0","0","0","0","0"]
+		                    },
+		                    "xAxis":[1474387200,1474473600,1474560000,1474646400,1474732800,1474819200,1474905600,1474992000,1474387200,1474473600,1474560000,1474646400,1474732800,1474819200,1474905600,1474992000,1474387200,1474473600,1474560000,1474646400,1474732800,1474819200,1474905600,1474992000]
+		                },
+		                "Alarm Type": "jiazhaoye",
+		                "Alarm Name": "jiazhaoye",
+		                "Object Type": "jiazhaoye",
+		                "Object": "jiazhaoye",
+		                "Alarm Level": "jiazhaoye",
+		                "Failure Times": "jiazhaoye",
+		                "Cycle": "jiazhaoye",
+		                "First Occurred Time": "1474387200",
+		                "Last Occurred Time": "1474987200",
+		                "First Generated Time": "1474387200",
+		                "Alarm Information": "jiazhaoye"
+		            },
+		            {            
+		            	"Serial Number":"600679",         
+		                "Status":{
+		              		"series": {
+			                    "alarm_level":["1","2","0","0","0","0","0","0","1","2","0","0","0","0","0","0","1","2","0","0","0","0","0","0"]
+		                    },
+		                    "xAxis":[1474387200,1474473600,1474560000,1474646400,1474732800,1474819200,1474905600,1474992000,1474387200,1474473600,1474560000,1474646400,1474732800,1474819200,1474905600,1474992000,1474387200,1474473600,1474560000,1474646400,1474732800,1474819200,1474905600,1474992000]
+		                },
+		                "Alarm Type": "jiazhaoye",
+		                "Alarm Name": "jiazhaoye",
+		                "Object Type": "jiazhaoye",
+		                "Object": "jiazhaoye",
+		                "Alarm Level": "jiazhaoye",
+		                "Failure Times": "jiazhaoye",
+		                "Cycle": "jiazhaoye",
+		                "First Occurred Time": "1474387200",
+		                "Last Occurred Time": "1474987200",
+		                "First Generated Time": "1474387200",
+		                "Alarm Information": "jiazhaoye"
+		            },
+		            {            
+		            	"Serial Number":"700679",         
+		                "Status":{
+		              		"series": {
+			                    "alarm_level":["1","2","0","0","0","0","0","0","1","2","0","0","0","0","0","0","1","2","0","0","0","0","0","0"]
+		                    },
+		                    "xAxis":[1474387200,1474473600,1474560000,1474646400,1474732800,1474819200,1474905600,1474992000,1474387200,1474473600,1474560000,1474646400,1474732800,1474819200,1474905600,1474992000,1474387200,1474473600,1474560000,1474646400,1474732800,1474819200,1474905600,1474992000]
+		                },
+		                "Alarm Type": "jiazhaoye",
+		                "Alarm Name": "jiazhaoye",
+		                "Object Type": "jiazhaoye",
+		                "Object": "jiazhaoye",
+		                "Alarm Level": "jiazhaoye",
+		                "Failure Times": "jiazhaoye",
+		                "Cycle": "jiazhaoye",
+		                "First Occurred Time": "1474387200",
+		                "Last Occurred Time": "1474987200",
+		                "First Generated Time": "1474387200",
+		                "Alarm Information": "jiazhaoye"
+		            },
+		            {            
+		            	"Serial Number":"800679",         
+		                "Status":{
+		              		"series": {
+			                    "alarm_level":["1","2","0","0","0","0","0","0","1","2","0","0","0","0","0","0","1","2","0","0","0","0","0","0"]
+		                    },
+		                    "xAxis":[1474387200,1474473600,1474560000,1474646400,1474732800,1474819200,1474905600,1474992000,1474387200,1474473600,1474560000,1474646400,1474732800,1474819200,1474905600,1474992000,1474387200,1474473600,1474560000,1474646400,1474732800,1474819200,1474905600,1474992000]
+		                },
+		                "Alarm Type": "jiazhaoye",
+		                "Alarm Name": "jiazhaoye",
+		                "Object Type": "jiazhaoye",
+		                "Object": "jiazhaoye",
+		                "Alarm Level": "jiazhaoye",
+		                "Failure Times": "jiazhaoye",
+		                "Cycle": "jiazhaoye",
+		                "First Occurred Time": "1474387200",
+		                "Last Occurred Time": "1474987200",
+		                "First Generated Time": "1474387200",
+		                "Alarm Information": "jiazhaoye"
+		            },
+		            {            
+		            	"Serial Number":"900679",         
+		                "Status":{
+		              		"series": {
+			                    "alarm_level":["1","2","0","0","0","0","0","0","1","2","0","0","0","0","0","0","1","2","0","0","0","0","0","0"]
+		                    },
+		                    "xAxis":[1474387200,1474473600,1474560000,1474646400,1474732800,1474819200,1474905600,1474992000,1474387200,1474473600,1474560000,1474646400,1474732800,1474819200,1474905600,1474992000,1474387200,1474473600,1474560000,1474646400,1474732800,1474819200,1474905600,1474992000]
+		                },
+		                "Alarm Type": "jiazhaoye",
+		                "Alarm Name": "jiazhaoye",
+		                "Object Type": "jiazhaoye",
+		                "Object": "jiazhaoye",
+		                "Alarm Level": "jiazhaoye",
+		                "Failure Times": "jiazhaoye",
+		                "Cycle": "jiazhaoye",
+		                "First Occurred Time": "1474387200",
+		                "Last Occurred Time": "1474987200",
+		                "First Generated Time": "1474387200",
+		                "Alarm Information": "jiazhaoye"
+		            },
+		            {            
+		            	"Serial Number":"110679",         
+		                "Status":{
+		              		"series": {
+			                    "alarm_level":["1","2","0","0","0","0","0","0","1","2","0","0","0","0","0","0","1","2","0","0","0","0","0","0"]
+		                    },
+		                    "xAxis":[1474387200,1474473600,1474560000,1474646400,1474732800,1474819200,1474905600,1474992000,1474387200,1474473600,1474560000,1474646400,1474732800,1474819200,1474905600,1474992000,1474387200,1474473600,1474560000,1474646400,1474732800,1474819200,1474905600,1474992000]
+		                },
+		                "Alarm Type": "jiazhaoye",
+		                "Alarm Name": "jiazhaoye",
+		                "Object Type": "jiazhaoye",
+		                "Object": "jiazhaoye",
+		                "Alarm Level": "jiazhaoye",
+		                "Failure Times": "jiazhaoye",
+		                "Cycle": "jiazhaoye",
+		                "First Occurred Time": "1474387200",
+		                "Last Occurred Time": "1474987200",
+		                "First Generated Time": "1474387200",
+		                "Alarm Information": "jiazhaoye"
+		            },
+		            {   
+		    			"Serial Number":"100679",         
+		                "Status":{
+		              		"series": {
+			                    "alarm_level":["1","2","0","0","0","0","0","0","1","2","0","0","0","0","0","0","1","2","0","0","0","0","0","0"]
+		                    },
+		                    "xAxis":[1474387200,1474473600,1474560000,1474646400,1474732800,1474819200,1474905600,1474992000,1474387200,1474473600,1474560000,1474646400,1474732800,1474819200,1474905600,1474992000,1474387200,1474473600,1474560000,1474646400,1474732800,1474819200,1474905600,1474992000]
+		                },
+		                "Alarm Type": "jiazhaoye",
+		                "Alarm Name": "jiazhaoye",
+		                "Object Type": "jiazhaoye",
+		                "Object": "jiazhaoye",
+		                "Alarm Level": "jiazhaoye",
+		                "Failure Times": "jiazhaoye",
+		                "Cycle": "jiazhaoye",
+		                "First Occurred Time": "1474387200",
+		                "Last Occurred Time": "1474987200",
+		                "First Generated Time": "1474387200",
+		                "Alarm Information": "jiazhaoye"
+		            },
+		            {            
+		            	"Serial Number":"200679",         
+		                "Status":{
+		              		"series": {
+			                    "alarm_level":["1","2","0","0","0","0","0","0","1","2","0","0","0","0","0","0","1","2","0","0","0","0","0","0"]
+		                    },
+		                    "xAxis":[1474387200,1474473600,1474560000,1474646400,1474732800,1474819200,1474905600,1474992000,1474387200,1474473600,1474560000,1474646400,1474732800,1474819200,1474905600,1474992000,1474387200,1474473600,1474560000,1474646400,1474732800,1474819200,1474905600,1474992000]
+		                },
+		                "Alarm Type": "jiazhaoye",
+		                "Alarm Name": "jiazhaoye",
+		                "Object Type": "jiazhaoye",
+		                "Object": "jiazhaoye",
+		                "Alarm Level": "jiazhaoye",
+		                "Failure Times": "jiazhaoye",
+		                "Cycle": "jiazhaoye",
+		                "First Occurred Time": "1474387200",
+		                "Last Occurred Time": "1474987200",
+		                "First Generated Time": "1474387200",
+		                "Alarm Information": "jiazhaoye"
+		            },
+		            {            
+		            	"Serial Number":"300679",         
+		                "Status":{
+		              		"series": {
+			                    "alarm_level":["1","2","0","0","0","0","0","0","1","2","0","0","0","0","0","0","1","2","0","0","0","0","0","0"]
+		                    },
+		                    "xAxis":[1474387200,1474473600,1474560000,1474646400,1474732800,1474819200,1474905600,1474992000,1474387200,1474473600,1474560000,1474646400,1474732800,1474819200,1474905600,1474992000,1474387200,1474473600,1474560000,1474646400,1474732800,1474819200,1474905600,1474992000]
+		                },
+		                "Alarm Type": "jiazhaoye",
+		                "Alarm Name": "jiazhaoye",
+		                "Object Type": "jiazhaoye",
+		                "Object": "jiazhaoye",
+		                "Alarm Level": "jiazhaoye",
+		                "Failure Times": "jiazhaoye",
+		                "Cycle": "jiazhaoye",
+		                "First Occurred Time": "1474387200",
+		                "Last Occurred Time": "1474987200",
+		                "First Generated Time": "1474387200",
+		                "Alarm Information": "jiazhaoye"
+		            },
+		            {            
+		            	"Serial Number":"400679",         
+		                "Status":{
+		              		"series": {
+			                    "alarm_level":["1","2","0","0","0","0","0","0","1","2","0","0","0","0","0","0","1","2","0","0","0","0","0","0"]
+		                    },
+		                    "xAxis":[1474387200,1474473600,1474560000,1474646400,1474732800,1474819200,1474905600,1474992000,1474387200,1474473600,1474560000,1474646400,1474732800,1474819200,1474905600,1474992000,1474387200,1474473600,1474560000,1474646400,1474732800,1474819200,1474905600,1474992000]
+		                },
+		                "Alarm Type": "jiazhaoye",
+		                "Alarm Name": "jiazhaoye",
+		                "Object Type": "jiazhaoye",
+		                "Object": "jiazhaoye",
+		                "Alarm Level": "jiazhaoye",
+		                "Failure Times": "jiazhaoye",
+		                "Cycle": "jiazhaoye",
+		                "First Occurred Time": "1474387200",
+		                "Last Occurred Time": "1474987200",
+		                "First Generated Time": "1474387200",
+		                "Alarm Information": "jiazhaoye"
+		            },
+		            {            
+		            	"Serial Number":"500679",         
+		                "Status":{
+		              		"series": {
+			                    "alarm_level":["1","2","0","0","0","0","0","0","1","2","0","0","0","0","0","0","1","2","0","0","0","0","0","0"]
+		                    },
+		                    "xAxis":[1474387200,1474473600,1474560000,1474646400,1474732800,1474819200,1474905600,1474992000,1474387200,1474473600,1474560000,1474646400,1474732800,1474819200,1474905600,1474992000,1474387200,1474473600,1474560000,1474646400,1474732800,1474819200,1474905600,1474992000]
+		                },
+		                "Alarm Type": "jiazhaoye",
+		                "Alarm Name": "jiazhaoye",
+		                "Object Type": "jiazhaoye",
+		                "Object": "jiazhaoye",
+		                "Alarm Level": "jiazhaoye",
+		                "Failure Times": "jiazhaoye",
+		                "Cycle": "jiazhaoye",
+		                "First Occurred Time": "1474387200",
+		                "Last Occurred Time": "1474987200",
+		                "First Generated Time": "1474387200",
+		                "Alarm Information": "jiazhaoye"
+		            },
+		            {            
+		            	"Serial Number":"600679",         
+		                "Status":{
+		              		"series": {
+			                    "alarm_level":["1","2","0","0","0","0","0","0","1","2","0","0","0","0","0","0","1","2","0","0","0","0","0","0"]
+		                    },
+		                    "xAxis":[1474387200,1474473600,1474560000,1474646400,1474732800,1474819200,1474905600,1474992000,1474387200,1474473600,1474560000,1474646400,1474732800,1474819200,1474905600,1474992000,1474387200,1474473600,1474560000,1474646400,1474732800,1474819200,1474905600,1474992000]
+		                },
+		                "Alarm Type": "jiazhaoye",
+		                "Alarm Name": "jiazhaoye",
+		                "Object Type": "jiazhaoye",
+		                "Object": "jiazhaoye",
+		                "Alarm Level": "jiazhaoye",
+		                "Failure Times": "jiazhaoye",
+		                "Cycle": "jiazhaoye",
+		                "First Occurred Time": "1474387200",
+		                "Last Occurred Time": "1474987200",
+		                "First Generated Time": "1474387200",
+		                "Alarm Information": "jiazhaoye"
+		            },
+		            {            
+		            	"Serial Number":"700679",         
+		                "Status":{
+		              		"series": {
+			                    "alarm_level":["1","2","0","0","0","0","0","0","1","2","0","0","0","0","0","0","1","2","0","0","0","0","0","0"]
+		                    },
+		                    "xAxis":[1474387200,1474473600,1474560000,1474646400,1474732800,1474819200,1474905600,1474992000,1474387200,1474473600,1474560000,1474646400,1474732800,1474819200,1474905600,1474992000,1474387200,1474473600,1474560000,1474646400,1474732800,1474819200,1474905600,1474992000]
+		                },
+		                "Alarm Type": "jiazhaoye",
+		                "Alarm Name": "jiazhaoye",
+		                "Object Type": "jiazhaoye",
+		                "Object": "jiazhaoye",
+		                "Alarm Level": "jiazhaoye",
+		                "Failure Times": "jiazhaoye",
+		                "Cycle": "jiazhaoye",
+		                "First Occurred Time": "1474387200",
+		                "Last Occurred Time": "1474987200",
+		                "First Generated Time": "1474387200",
+		                "Alarm Information": "jiazhaoye"
+		            },
+		            {            
+		            	"Serial Number":"800679",         
+		                "Status":{
+		              		"series": {
+			                    "alarm_level":["1","2","0","0","0","0","0","0","1","2","0","0","0","0","0","0","1","2","0","0","0","0","0","0"]
+		                    },
+		                    "xAxis":[1474387200,1474473600,1474560000,1474646400,1474732800,1474819200,1474905600,1474992000,1474387200,1474473600,1474560000,1474646400,1474732800,1474819200,1474905600,1474992000,1474387200,1474473600,1474560000,1474646400,1474732800,1474819200,1474905600,1474992000]
+		                },
+		                "Alarm Type": "jiazhaoye",
+		                "Alarm Name": "jiazhaoye",
+		                "Object Type": "jiazhaoye",
+		                "Object": "jiazhaoye",
+		                "Alarm Level": "jiazhaoye",
+		                "Failure Times": "jiazhaoye",
+		                "Cycle": "jiazhaoye",
+		                "First Occurred Time": "1474387200",
+		                "Last Occurred Time": "1474987200",
+		                "First Generated Time": "1474387200",
+		                "Alarm Information": "jiazhaoye"
+		            },
+		            {            
+		            	"Serial Number":"900679",         
+		                "Status":{
+		              		"series": {
+			                    "alarm_level":["1","2","0","0","0","0","0","0","1","2","0","0","0","0","0","0","1","2","0","0","0","0","0","0"]
+		                    },
+		                    "xAxis":[1474387200,1474473600,1474560000,1474646400,1474732800,1474819200,1474905600,1474992000,1474387200,1474473600,1474560000,1474646400,1474732800,1474819200,1474905600,1474992000,1474387200,1474473600,1474560000,1474646400,1474732800,1474819200,1474905600,1474992000]
+		                },
+		                "Alarm Type": "jiazhaoye",
+		                "Alarm Name": "jiazhaoye",
+		                "Object Type": "jiazhaoye",
+		                "Object": "jiazhaoye",
+		                "Alarm Level": "jiazhaoye",
+		                "Failure Times": "jiazhaoye",
+		                "Cycle": "jiazhaoye",
+		                "First Occurred Time": "1474387200",
+		                "Last Occurred Time": "1474987200",
+		                "First Generated Time": "1474387200",
+		                "Alarm Information": "jiazhaoye"
+		            },
+		            {            
+		            	"Serial Number":"110679",         
+		                "Status":{
+		              		"series": {
+			                    "alarm_level":["1","2","0","0","0","0","0","0","1","2","0","0","0","0","0","0","1","2","0","0","0","0","0","0"]
+		                    },
+		                    "xAxis":[1474387200,1474473600,1474560000,1474646400,1474732800,1474819200,1474905600,1474992000,1474387200,1474473600,1474560000,1474646400,1474732800,1474819200,1474905600,1474992000,1474387200,1474473600,1474560000,1474646400,1474732800,1474819200,1474905600,1474992000]
+		                },
+		                "Alarm Type": "jiazhaoye",
+		                "Alarm Name": "jiazhaoye",
+		                "Object Type": "jiazhaoye",
+		                "Object": "jiazhaoye",
+		                "Alarm Level": "jiazhaoye",
+		                "Failure Times": "jiazhaoye",
+		                "Cycle": "jiazhaoye",
+		                "First Occurred Time": "1474387200",
+		                "Last Occurred Time": "1474987200",
+		                "First Generated Time": "1474387200",
+		                "Alarm Information": "jiazhaoye"
+		            }
+		    	]
+			}
+        },
+        {
+            "url": "/PAGING",
+            "desc": "",
+            "mock": true,
+            "delay": 1000,
+            "res": {
+            	"TOTALNUMBER" : 168,
+				"ALARMLIST_DATA":[
+		    		{   
+		                "Status":{
+		              		"series": {
+			                    "alarm_level":["1","2","0","0","0","0","0","0","1","2","0","0","0","0","0","0","1","2","0","0","0","0","0","0"]
+		                    },
+		                    "xAxis":[1474387200,1474473600,1474560000,1474646400,1474732800,1474819200,1474905600,1474992000,1474387200,1474473600,1474560000,1474646400,1474732800,1474819200,1474905600,1474992000,1474387200,1474473600,1474560000,1474646400,1474732800,1474819200,1474905600,1474992000]
+		                },
+		                "Alarm Type": "jiazhaoye",
+		                "Alarm Name": "jiazhaoye",
+		                "Object Type": "jiazhaoye",
+		                "Object": "jiazhaoye",
+		                "Alarm Level": "jiazhaoye",
+		                "Failure Times": "jiazhaoye",
+		                "Cycle": "jiazhaoye",
+		                "Serial Number":"9000679",
+		                "First Occurred Time": "1474387200",
+		                "Last Occurred Time": "1474987200",
+		                "First Generated Time": "1474387200",
+		                "Alarm Information": "jiazhaoye"
+		            },
+		            {            
+		            	"Serial Number":"2555500679",         
+		                "Status":{
+		              		"series": {
+			                    "alarm_level":["1","2","0","0","0","0","0","0","1","2","0","0","0","0","0","0","1","2","0","0","0","0","0","0"]
+		                    },
+		                    "xAxis":[1474387200,1474473600,1474560000,1474646400,1474732800,1474819200,1474905600,1474992000,1474387200,1474473600,1474560000,1474646400,1474732800,1474819200,1474905600,1474992000,1474387200,1474473600,1474560000,1474646400,1474732800,1474819200,1474905600,1474992000]
+		                },
+		                "Alarm Type": "jiazhaoye",
+		                "Alarm Name": "jiazhaoye",
+		                "Object Type": "jiazhaoye",
+		                "Object": "jiazhaoye",
+		                "Alarm Level": "jiazhaoye",
+		                "Failure Times": "jiazhaoye",
+		                "Cycle": "jiazhaoye",
+		                "First Occurred Time": "1474387200",
+		                "Last Occurred Time": "1474987200",
+		                "First Generated Time": "1474387200",
+		                "Alarm Information": "jiazhaoye"
+		            },
+		            {            
+		            	"Serial Number":"300679",         
+		                "Status":{
+		              		"series": {
+			                    "alarm_level":["1","2","0","0","0","0","0","0","1","2","0","0","0","0","0","0","1","2","0","0","0","0","0","0"]
+		                    },
+		                    "xAxis":[1474387200,1474473600,1474560000,1474646400,1474732800,1474819200,1474905600,1474992000,1474387200,1474473600,1474560000,1474646400,1474732800,1474819200,1474905600,1474992000,1474387200,1474473600,1474560000,1474646400,1474732800,1474819200,1474905600,1474992000]
+		                },
+		                "Alarm Type": "jiazhaoye",
+		                "Alarm Name": "jiazhaoye",
+		                "Object Type": "jiazhaoye",
+		                "Object": "jiazhaoye",
+		                "Alarm Level": "jiazhaoye",
+		                "Failure Times": "jiazhaoye",
+		                "Cycle": "jiazhaoye",
+		                "First Occurred Time": "1474387200",
+		                "Last Occurred Time": "1474987200",
+		                "First Generated Time": "1474387200",
+		                "Alarm Information": "jiazhaoye"
+		            },
+		            {            
+		            	"Serial Number":"400679",         
+		                "Status":{
+		              		"series": {
+			                    "alarm_level":["1","2","0","0","0","0","0","0","1","2","0","0","0","0","0","0","1","2","0","0","0","0","0","0"]
+		                    },
+		                    "xAxis":[1474387200,1474473600,1474560000,1474646400,1474732800,1474819200,1474905600,1474992000,1474387200,1474473600,1474560000,1474646400,1474732800,1474819200,1474905600,1474992000,1474387200,1474473600,1474560000,1474646400,1474732800,1474819200,1474905600,1474992000]
+		                },
+		                "Alarm Type": "jiazhaoye",
+		                "Alarm Name": "jiazhaoye",
+		                "Object Type": "jiazhaoye",
+		                "Object": "jiazhaoye",
+		                "Alarm Level": "jiazhaoye",
+		                "Failure Times": "jiazhaoye",
+		                "Cycle": "jiazhaoye",
+		                "First Occurred Time": "1474387200",
+		                "Last Occurred Time": "1474987200",
+		                "First Generated Time": "1474387200",
+		                "Alarm Information": "jiazhaoye"
+		            },
+		            {            
+		            	"Serial Number":"500679",         
+		                "Status":{
+		              		"series": {
+			                    "alarm_level":["1","2","0","0","0","0","0","0","1","2","0","0","0","0","0","0","1","2","0","0","0","0","0","0"]
+		                    },
+		                    "xAxis":[1474387200,1474473600,1474560000,1474646400,1474732800,1474819200,1474905600,1474992000,1474387200,1474473600,1474560000,1474646400,1474732800,1474819200,1474905600,1474992000,1474387200,1474473600,1474560000,1474646400,1474732800,1474819200,1474905600,1474992000]
+		                },
+		                "Alarm Type": "jiazhaoye",
+		                "Alarm Name": "jiazhaoye",
+		                "Object Type": "jiazhaoye",
+		                "Object": "jiazhaoye",
+		                "Alarm Level": "jiazhaoye",
+		                "Failure Times": "jiazhaoye",
+		                "Cycle": "jiazhaoye",
+		                "First Occurred Time": "1474387200",
+		                "Last Occurred Time": "1474987200",
+		                "First Generated Time": "1474387200",
+		                "Alarm Information": "jiazhaoye"
+		            },
+		            {            
+		            	"Serial Number":"600679",         
+		                "Status":{
+		              		"series": {
+			                    "alarm_level":["1","2","0","0","0","0","0","0","1","2","0","0","0","0","0","0","1","2","0","0","0","0","0","0"]
+		                    },
+		                    "xAxis":[1474387200,1474473600,1474560000,1474646400,1474732800,1474819200,1474905600,1474992000,1474387200,1474473600,1474560000,1474646400,1474732800,1474819200,1474905600,1474992000,1474387200,1474473600,1474560000,1474646400,1474732800,1474819200,1474905600,1474992000]
+		                },
+		                "Alarm Type": "jiazhaoye",
+		                "Alarm Name": "jiazhaoye",
+		                "Object Type": "jiazhaoye",
+		                "Object": "jiazhaoye",
+		                "Alarm Level": "jiazhaoye",
+		                "Failure Times": "jiazhaoye",
+		                "Cycle": "jiazhaoye",
+		                "First Occurred Time": "1474387200",
+		                "Last Occurred Time": "1474987200",
+		                "First Generated Time": "1474387200",
+		                "Alarm Information": "jiazhaoye"
+		            },
+		            {            
+		            	"Serial Number":"700679",         
+		                "Status":{
+		              		"series": {
+			                    "alarm_level":["1","2","0","0","0","0","0","0","1","2","0","0","0","0","0","0","1","2","0","0","0","0","0","0"]
+		                    },
+		                    "xAxis":[1474387200,1474473600,1474560000,1474646400,1474732800,1474819200,1474905600,1474992000,1474387200,1474473600,1474560000,1474646400,1474732800,1474819200,1474905600,1474992000,1474387200,1474473600,1474560000,1474646400,1474732800,1474819200,1474905600,1474992000]
+		                },
+		                "Alarm Type": "jiazhaoye",
+		                "Alarm Name": "jiazhaoye",
+		                "Object Type": "jiazhaoye",
+		                "Object": "jiazhaoye",
+		                "Alarm Level": "jiazhaoye",
+		                "Failure Times": "jiazhaoye",
+		                "Cycle": "jiazhaoye",
+		                "First Occurred Time": "1474387200",
+		                "Last Occurred Time": "1474987200",
+		                "First Generated Time": "1474387200",
+		                "Alarm Information": "jiazhaoye"
+		            },
+		            {            
+		            	"Serial Number":"800679",         
+		                "Status":{
+		              		"series": {
+			                    "alarm_level":["1","2","0","0","0","0","0","0","1","2","0","0","0","0","0","0","1","2","0","0","0","0","0","0"]
+		                    },
+		                    "xAxis":[1474387200,1474473600,1474560000,1474646400,1474732800,1474819200,1474905600,1474992000,1474387200,1474473600,1474560000,1474646400,1474732800,1474819200,1474905600,1474992000,1474387200,1474473600,1474560000,1474646400,1474732800,1474819200,1474905600,1474992000]
+		                },
+		                "Alarm Type": "jiazhaoye",
+		                "Alarm Name": "jiazhaoye",
+		                "Object Type": "jiazhaoye",
+		                "Object": "jiazhaoye",
+		                "Alarm Level": "jiazhaoye",
+		                "Failure Times": "jiazhaoye",
+		                "Cycle": "jiazhaoye",
+		                "First Occurred Time": "1474387200",
+		                "Last Occurred Time": "1474987200",
+		                "First Generated Time": "1474387200",
+		                "Alarm Information": "jiazhaoye"
+		            },
+		            {            
+		            	"Serial Number":"900679",         
+		                "Status":{
+		              		"series": {
+			                    "alarm_level":["1","2","0","0","0","0","0","0","1","2","0","0","0","0","0","0","1","2","0","0","0","0","0","0"]
+		                    },
+		                    "xAxis":[1474387200,1474473600,1474560000,1474646400,1474732800,1474819200,1474905600,1474992000,1474387200,1474473600,1474560000,1474646400,1474732800,1474819200,1474905600,1474992000,1474387200,1474473600,1474560000,1474646400,1474732800,1474819200,1474905600,1474992000]
+		                },
+		                "Alarm Type": "jiazhaoye",
+		                "Alarm Name": "jiazhaoye",
+		                "Object Type": "jiazhaoye",
+		                "Object": "jiazhaoye",
+		                "Alarm Level": "jiazhaoye",
+		                "Failure Times": "jiazhaoye",
+		                "Cycle": "jiazhaoye",
+		                "First Occurred Time": "1474387200",
+		                "Last Occurred Time": "1474987200",
+		                "First Generated Time": "1474387200",
+		                "Alarm Information": "jiazhaoye"
+		            },
+		            {            
+		            	"Serial Number":"110679",         
+		                "Status":{
+		              		"series": {
+			                    "alarm_level":["1","2","0","0","0","0","0","0","1","2","0","0","0","0","0","0","1","2","0","0","0","0","0","0"]
+		                    },
+		                    "xAxis":[1474387200,1474473600,1474560000,1474646400,1474732800,1474819200,1474905600,1474992000,1474387200,1474473600,1474560000,1474646400,1474732800,1474819200,1474905600,1474992000,1474387200,1474473600,1474560000,1474646400,1474732800,1474819200,1474905600,1474992000]
+		                },
+		                "Alarm Type": "jiazhaoye",
+		                "Alarm Name": "jiazhaoye",
+		                "Object Type": "jiazhaoye",
+		                "Object": "jiazhaoye",
+		                "Alarm Level": "jiazhaoye",
+		                "Failure Times": "jiazhaoye",
+		                "Cycle": "jiazhaoye",
+		                "First Occurred Time": "1474387200",
+		                "Last Occurred Time": "1474987200",
+		                "First Generated Time": "1474387200",
+		                "Alarm Information": "jiazhaoye"
+		            },
+		            {   
+		    			"Serial Number":"100679",         
+		                "Status":{
+		              		"series": {
+			                    "alarm_level":["1","2","0","0","0","0","0","0","1","2","0","0","0","0","0","0","1","2","0","0","0","0","0","0"]
+		                    },
+		                    "xAxis":[1474387200,1474473600,1474560000,1474646400,1474732800,1474819200,1474905600,1474992000,1474387200,1474473600,1474560000,1474646400,1474732800,1474819200,1474905600,1474992000,1474387200,1474473600,1474560000,1474646400,1474732800,1474819200,1474905600,1474992000]
+		                },
+		                "Alarm Type": "jiazhaoye",
+		                "Alarm Name": "jiazhaoye",
+		                "Object Type": "jiazhaoye",
+		                "Object": "jiazhaoye",
+		                "Alarm Level": "jiazhaoye",
+		                "Failure Times": "jiazhaoye",
+		                "Cycle": "jiazhaoye",
+		                "First Occurred Time": "1474387200",
+		                "Last Occurred Time": "1474987200",
+		                "First Generated Time": "1474387200",
+		                "Alarm Information": "jiazhaoye"
+		            },
+		            {            
+		            	"Serial Number":"200679",         
+		                "Status":{
+		              		"series": {
+			                    "alarm_level":["1","2","0","0","0","0","0","0","1","2","0","0","0","0","0","0","1","2","0","0","0","0","0","0"]
+		                    },
+		                    "xAxis":[1474387200,1474473600,1474560000,1474646400,1474732800,1474819200,1474905600,1474992000,1474387200,1474473600,1474560000,1474646400,1474732800,1474819200,1474905600,1474992000,1474387200,1474473600,1474560000,1474646400,1474732800,1474819200,1474905600,1474992000]
+		                },
+		                "Alarm Type": "jiazhaoye",
+		                "Alarm Name": "jiazhaoye",
+		                "Object Type": "jiazhaoye",
+		                "Object": "jiazhaoye",
+		                "Alarm Level": "jiazhaoye",
+		                "Failure Times": "jiazhaoye",
+		                "Cycle": "jiazhaoye",
+		                "First Occurred Time": "1474387200",
+		                "Last Occurred Time": "1474987200",
+		                "First Generated Time": "1474387200",
+		                "Alarm Information": "jiazhaoye"
+		            },
+		            {            
+		            	"Serial Number":"300679",         
+		                "Status":{
+		              		"series": {
+			                    "alarm_level":["1","2","0","0","0","0","0","0","1","2","0","0","0","0","0","0","1","2","0","0","0","0","0","0"]
+		                    },
+		                    "xAxis":[1474387200,1474473600,1474560000,1474646400,1474732800,1474819200,1474905600,1474992000,1474387200,1474473600,1474560000,1474646400,1474732800,1474819200,1474905600,1474992000,1474387200,1474473600,1474560000,1474646400,1474732800,1474819200,1474905600,1474992000]
+		                },
+		                "Alarm Type": "jiazhaoye",
+		                "Alarm Name": "jiazhaoye",
+		                "Object Type": "jiazhaoye",
+		                "Object": "jiazhaoye",
+		                "Alarm Level": "jiazhaoye",
+		                "Failure Times": "jiazhaoye",
+		                "Cycle": "jiazhaoye",
+		                "First Occurred Time": "1474387200",
+		                "Last Occurred Time": "1474987200",
+		                "First Generated Time": "1474387200",
+		                "Alarm Information": "jiazhaoye"
+		            },
+		            {            
+		            	"Serial Number":"400679",         
+		                "Status":{
+		              		"series": {
+			                    "alarm_level":["1","2","0","0","0","0","0","0","1","2","0","0","0","0","0","0","1","2","0","0","0","0","0","0"]
+		                    },
+		                    "xAxis":[1474387200,1474473600,1474560000,1474646400,1474732800,1474819200,1474905600,1474992000,1474387200,1474473600,1474560000,1474646400,1474732800,1474819200,1474905600,1474992000,1474387200,1474473600,1474560000,1474646400,1474732800,1474819200,1474905600,1474992000]
+		                },
+		                "Alarm Type": "jiazhaoye",
+		                "Alarm Name": "jiazhaoye",
+		                "Object Type": "jiazhaoye",
+		                "Object": "jiazhaoye",
+		                "Alarm Level": "jiazhaoye",
+		                "Failure Times": "jiazhaoye",
+		                "Cycle": "jiazhaoye",
+		                "First Occurred Time": "1474387200",
+		                "Last Occurred Time": "1474987200",
+		                "First Generated Time": "1474387200",
+		                "Alarm Information": "jiazhaoye"
+		            },
+		            {            
+		            	"Serial Number":"500679",         
+		                "Status":{
+		              		"series": {
+			                    "alarm_level":["1","2","0","0","0","0","0","0","1","2","0","0","0","0","0","0","1","2","0","0","0","0","0","0"]
+		                    },
+		                    "xAxis":[1474387200,1474473600,1474560000,1474646400,1474732800,1474819200,1474905600,1474992000,1474387200,1474473600,1474560000,1474646400,1474732800,1474819200,1474905600,1474992000,1474387200,1474473600,1474560000,1474646400,1474732800,1474819200,1474905600,1474992000]
+		                },
+		                "Alarm Type": "jiazhaoye",
+		                "Alarm Name": "jiazhaoye",
+		                "Object Type": "jiazhaoye",
+		                "Object": "jiazhaoye",
+		                "Alarm Level": "jiazhaoye",
+		                "Failure Times": "jiazhaoye",
+		                "Cycle": "jiazhaoye",
+		                "First Occurred Time": "1474387200",
+		                "Last Occurred Time": "1474987200",
+		                "First Generated Time": "1474387200",
+		                "Alarm Information": "jiazhaoye"
+		            },
+		            {            
+		            	"Serial Number":"600679",         
+		                "Status":{
+		              		"series": {
+			                    "alarm_level":["1","2","0","0","0","0","0","0","1","2","0","0","0","0","0","0","1","2","0","0","0","0","0","0"]
+		                    },
+		                    "xAxis":[1474387200,1474473600,1474560000,1474646400,1474732800,1474819200,1474905600,1474992000,1474387200,1474473600,1474560000,1474646400,1474732800,1474819200,1474905600,1474992000,1474387200,1474473600,1474560000,1474646400,1474732800,1474819200,1474905600,1474992000]
+		                },
+		                "Alarm Type": "jiazhaoye",
+		                "Alarm Name": "jiazhaoye",
+		                "Object Type": "jiazhaoye",
+		                "Object": "jiazhaoye",
+		                "Alarm Level": "jiazhaoye",
+		                "Failure Times": "jiazhaoye",
+		                "Cycle": "jiazhaoye",
+		                "First Occurred Time": "1474387200",
+		                "Last Occurred Time": "1474987200",
+		                "First Generated Time": "1474387200",
+		                "Alarm Information": "jiazhaoye"
+		            },
+		            {            
+		            	"Serial Number":"700679",         
+		                "Status":{
+		              		"series": {
+			                    "alarm_level":["1","2","0","0","0","0","0","0","1","2","0","0","0","0","0","0","1","2","0","0","0","0","0","0"]
+		                    },
+		                    "xAxis":[1474387200,1474473600,1474560000,1474646400,1474732800,1474819200,1474905600,1474992000,1474387200,1474473600,1474560000,1474646400,1474732800,1474819200,1474905600,1474992000,1474387200,1474473600,1474560000,1474646400,1474732800,1474819200,1474905600,1474992000]
+		                },
+		                "Alarm Type": "jiazhaoye",
+		                "Alarm Name": "jiazhaoye",
+		                "Object Type": "jiazhaoye",
+		                "Object": "jiazhaoye",
+		                "Alarm Level": "jiazhaoye",
+		                "Failure Times": "jiazhaoye",
+		                "Cycle": "jiazhaoye",
+		                "First Occurred Time": "1474387200",
+		                "Last Occurred Time": "1474987200",
+		                "First Generated Time": "1474387200",
+		                "Alarm Information": "jiazhaoye"
+		            },
+		            {            
+		            	"Serial Number":"800679",         
+		                "Status":{
+		              		"series": {
+			                    "alarm_level":["1","2","0","0","0","0","0","0","1","2","0","0","0","0","0","0","1","2","0","0","0","0","0","0"]
+		                    },
+		                    "xAxis":[1474387200,1474473600,1474560000,1474646400,1474732800,1474819200,1474905600,1474992000,1474387200,1474473600,1474560000,1474646400,1474732800,1474819200,1474905600,1474992000,1474387200,1474473600,1474560000,1474646400,1474732800,1474819200,1474905600,1474992000]
+		                },
+		                "Alarm Type": "jiazhaoye",
+		                "Alarm Name": "jiazhaoye",
+		                "Object Type": "jiazhaoye",
+		                "Object": "jiazhaoye",
+		                "Alarm Level": "jiazhaoye",
+		                "Failure Times": "jiazhaoye",
+		                "Cycle": "jiazhaoye",
+		                "First Occurred Time": "1474387200",
+		                "Last Occurred Time": "1474987200",
+		                "First Generated Time": "1474387200",
+		                "Alarm Information": "jiazhaoye"
+		            },
+		            {            
+		            	"Serial Number":"900679",         
+		                "Status":{
+		              		"series": {
+			                    "alarm_level":["1","2","0","0","0","0","0","0","1","2","0","0","0","0","0","0","1","2","0","0","0","0","0","0"]
+		                    },
+		                    "xAxis":[1474387200,1474473600,1474560000,1474646400,1474732800,1474819200,1474905600,1474992000,1474387200,1474473600,1474560000,1474646400,1474732800,1474819200,1474905600,1474992000,1474387200,1474473600,1474560000,1474646400,1474732800,1474819200,1474905600,1474992000]
+		                },
+		                "Alarm Type": "jiazhaoye",
+		                "Alarm Name": "jiazhaoye",
+		                "Object Type": "jiazhaoye",
+		                "Object": "jiazhaoye",
+		                "Alarm Level": "jiazhaoye",
+		                "Failure Times": "jiazhaoye",
+		                "Cycle": "jiazhaoye",
+		                "First Occurred Time": "1474387200",
+		                "Last Occurred Time": "1474987200",
+		                "First Generated Time": "1474387200",
+		                "Alarm Information": "jiazhaoye"
+		            },
+		            {            
+		            	"Serial Number":"110679",         
+		                "Status":{
+		              		"series": {
+			                    "alarm_level":["1","2","0","0","0","0","0","0","1","2","0","0","0","0","0","0","1","2","0","0","0","0","0","0"]
+		                    },
+		                    "xAxis":[1474387200,1474473600,1474560000,1474646400,1474732800,1474819200,1474905600,1474992000,1474387200,1474473600,1474560000,1474646400,1474732800,1474819200,1474905600,1474992000,1474387200,1474473600,1474560000,1474646400,1474732800,1474819200,1474905600,1474992000]
+		                },
+		                "Alarm Type": "jiazhaoye",
+		                "Alarm Name": "jiazhaoye",
+		                "Object Type": "jiazhaoye",
+		                "Object": "jiazhaoye",
+		                "Alarm Level": "jiazhaoye",
+		                "Failure Times": "jiazhaoye",
+		                "Cycle": "jiazhaoye",
+		                "First Occurred Time": "1474387200",
+		                "Last Occurred Time": "1474987200",
+		                "First Generated Time": "1474387200",
+		                "Alarm Information": "jiazhaoye"
+		            }
+		    	]
+			}
+        },
+        {
+            "url": "/MODELTREND",
+            "desc": "",
+            "mock": true,
+            "delay": 1000,
+            "res": {
+            	"groupName":"BWM",
+            	"updateTime":1474387200,
+            	"dimId":"54",
+            	"model":{
+            		"text":"huihuihih",
+            		"id":"h"
+            	},
+	            "statuCode": 200,
+		 		"xAxis":[1474387200,1474473600,1474560000,1474646400,1474732800,1474819200,1474905600,1474992000,1474732800,1474819200,1474905600,1474992000,1474387200,1474473600,1474560000,1474646400,1474732800,1474819200,1474905600,1474992000,1474732800,1474819200,1474905600,1474992000],
+				"series":{
+				   	"modelTrend":["95.12","96.12","97.12","95.22","95.42","95.92","95.32","95.02","95.42","95.92","95.32","95.02","95.12","96.12","97.12","95.22","95.42","95.92","95.32","95.02","95.42","95.92","95.32","95.02"]
+				}
+			}
+        },
+        {
+            "url": "/CELLAREA",
+            "desc": "",
+            "mock": true,
+            "delay": 1000,
+            "res": [
+				{
+					"CRITICALALARM":"62",
+					"CRITICALALARMTREND":"1",
+					"PROMPTALARM":"78",
+					"PROMPTALARMTREND":"-1",
+					"AllALARM":"140",
+					"startTime":1474387200,
+					"endTime": 1474473600,           
+					"icon":""
+				},
+				{
+					"CELLLIST":[]
+				},
+				{
+					"status":"success"
+				}
+			]
+        }
+    ]
+}

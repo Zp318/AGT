@@ -1,0 +1,59 @@
+{
+    "series": [
+        [
+            "3693.85",
+            "3697.48",
+            "3698.12",
+            "3696.22",
+            "3701.43",
+            "3693.50",
+            "3697.94",
+            "3692.00",
+            "3699.11",
+            "3694.84"
+        ],
+        [
+            "393.85",
+            "397.48",
+            "398.12",
+            "366.22",
+            "370.43",
+            "369.50",
+            "367.94",
+            "369.00",
+            "369.11",
+            "364.84"
+        ]
+    ],
+    "unit": [
+        "ms",
+        "s"
+    ],
+    "nameMapping": {
+        "Server Side TCP_HS Round Trip Time(MS)": "SERVERTCPHSROUNDTRIPTIME",
+        "Server Side TCP_HS Round Trip(S)": "SERVERTCPHSROUNDTRIP"
+    },
+    "legend": [
+        {
+            "name": "Server Side TCP_HS Round Trip Time(MS)",
+            "isMain": true
+        },
+        {
+            "name": "Server Side TCP_HS Round Trip(S)",
+            "isMain": false
+        }
+    ],
+    "xAxis": [
+        1487711700,
+        1487712600,
+        1487713500,
+        1487714400,
+        1487715300,
+        1487716200,
+        1487717100,
+        1487718000,
+        1487718900,
+        1487719800
+    ]
+}
+

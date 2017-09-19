@@ -1,0 +1,24 @@
+{
+    
+    "sort":[
+        {
+            "id":"counter1",
+            "name":"counter1"
+        },
+        {
+            "id":"counter2",
+            "name":"counter2"
+        }
+    ],
+    "operator":[
+        {
+            "id":"option1",
+            "name":"option1"
+        },
+        {
+            "id":"option2",
+            "name":"option2"
+        }
+    ]
+
+}
